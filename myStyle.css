@@ -1,0 +1,60 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("restaurant.jpg");
+                  background-repeat: no-repeat;
+                  background-size: cover;
+	width:100%;
+	height:100vh;
+}
+h1{
+	font-size:3vw;
+	margin-top: 50px;
+	color: tomato;
+}
+
+#first{
+	margin-top:3vh;
+	width:750px;
+	height:40px;
+	font-size:1vw;
+	border:0.5px solid white;
+	border-radius:10px;
+	background-color:rgba(0,0,0,0.2);
+	color:white;
+}
+
+.container label{
+    
+    font-size: 2vw;
+    color:violet;
+    letter-spacing: 3px;
+    font-weight: bold;
+   
+}
+
+#second{
+  width:100px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    color: rgb(209, 161, 5);
+    text-align: center;
+    left: 650px;
+    font-weight: bold;
+}
+
+table.center{
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+   color:white;
+}
+
+.table td{
+    border: black solid 1.5px;
+}
+
+.table tr th{
+    border: solid black 1.5px;
+}
